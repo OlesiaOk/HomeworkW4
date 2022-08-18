@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Olesia is a front-end developer based in Ukraine. Сreates websites and applications using HTML, CSS, JavaScript and React."
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -32,9 +36,35 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Front-end developer - Olesia Okhrimenko</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homapage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Olesia's logo"
+          />
+          <img
+            src="images/mini-logo.jpg"
+            class="logo d-block d-md-none"
+            alt="Olesia's logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homapage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About me page">About</a>
+          </li>
+          <li><a href="/work.html" title="Olesia's works">Work</a></li>
+          <li><a href="/contact.html" title="Olesia's contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -47,13 +77,72 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding mt-4">See all projects</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding mt-4"
+              title="Olesia's works"
+              >See all projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/foto.jpg" alt="" class="img-fluid rounded-3" />
+          <img
+            src="images/foto.jpg"
+            alt="Olesia Okhrimenko "
+            class="img-fluid rounded-3"
+          />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Let’s work together and I’ll help you by all my best
+          </p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Olesia's contacts"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <a
+        href="mailto:waterbios@gmail.com"
+        class="email-link mb-5 d-flex justify-content-center"
+        title="Email"
+        >waterbios@gmail.com</a
+      >
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://instagram.com/Olesia.codes"
+          target="_blank"
+          title="Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/Olesia"
+          target="_blank"
+          title="GitHub profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://facebook.com/Olesia"
+          target="_blank"
+          title="Facebook profile"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Olesia Okhrimenko, and it is
+        <a href="https://github.com/OlesiaOk/HomeworkW4" target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

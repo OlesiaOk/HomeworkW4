@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Olesia is a front-end developer based in Ukraine. Сreates websites and applications using HTML, CSS, JavaScript and React."
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -32,30 +36,41 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Front-end developer - Olesia Okhrimenko</title>
   </head>
   <body>
-    <div class="container"></div>
-    <nav class="d-flex justify-content-between">
-      <a href="/">
-      <img src="images/logo.png" class="logo d-none d-md-block" />
-       <img src="images/mini-logo.jpg" class="logo d-block d-md-none" />
-      </a>
-      <ul>
-        <li class="active">
-          <a href="/" >Home</a></li>
-        <li><a href="/about.html" >About</a></li>
-        <li><a href="/work.html" >Work</a></li>
-        <li><a href="/contact.html" >Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homapage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Olesia's logo"
+          />
+          <img
+            src="images/mini-logo.jpg"
+            class="logo d-block d-md-none"
+            alt="Olesia's logo"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homapage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About me page">About</a></li>
+          <li><a href="/work.html" title="Olesia's works">Work</a></li>
+          <li><a href="/contact.html" title="Olesia's contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋 Hi, I am</p>
       <h1>Olesia Okhrimenko</h1>
       <h2 class="mb-5">🇺🇦 Front-end developer, based in Europe</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center mb-5">
@@ -64,7 +79,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/images.jpg" alt="Yogurt project" class="img-fluid" />
+          <img
+            src="images/images.jpg"
+            alt="Yogurt project preview"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -75,7 +94,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -89,18 +108,22 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/images_1.jpg" alt="Weather App" class="img-fluid" />
+          <img
+            src="images/images_1.jpg"
+            alt="Weather App preview"
+            class="img-fluid"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
             src="images/images_2.jpg"
-            alt="Dictionary project"
+            alt="Dictionary project preview"
             class="img-fluid"
           />
         </div>
@@ -113,27 +136,59 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
       <footer>
-        <div class="contact-box  justify-content-between mb-5 d-none d-md-flex">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
-          <h4>Work Inquiry</h4>
-          <p class="text-muted">Let’s work  together and I’ll help you by all my best</p></div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">
+              Let’s work together and I’ll help you by all my best
+            </p>
+          </div>
           <div>
-          <a href="" class="btn btn-branding">Contact me</a></div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Olesia's contacts"
+              >Contact me</a
+            >
+          </div>
         </div>
-         <a href="mailto:waterbios@gmail.com" class="email-link mb-5 d-flex justify-content-center">waterbios@gmail.com</a>
-         <div class="social-links d-flex justify-content-center">
-          <a href="https://instagram.com/Olesia.codes" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://github.com/Olesia" target="_blank"><i class="fa-brands fa-github"></i></a>
-          <a href="https://facebook.com/Olesia" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-         
-         
-         
+        <a
+          href="mailto:waterbios@gmail.com"
+          class="email-link mb-5 d-flex justify-content-center"
+          title="Email"
+          >waterbios@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://instagram.com/Olesia.codes"
+            target="_blank"
+            title="Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/Olesia"
+            target="_blank"
+            title="GitHub profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://facebook.com/Olesia"
+            target="_blank"
+            title="Facebook profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Olesia Okhrimenko, and it is
+          <a href="https://github.com/OlesiaOk/HomeworkW4" target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
