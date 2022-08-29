@@ -163,6 +163,10 @@ footer .contact-box p {
     font-size: 44px;
     line-height: 56px;
   }
+  .content h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -177,8 +181,12 @@ footer .contact-box p {
   .content {
     text-align: center;
     padding: 0;
+    margin: 0;
   }
   nav a {
     font-size: 14px;
+  }
+  .content-container {
+    padding: 0;
   }
 }
