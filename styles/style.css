@@ -198,4 +198,7 @@ footer .contact-box p {
   footer .email-link {
     font-size: 18px;
   }
+  .foto {
+    padding: 0 30px;
+  }
 }
