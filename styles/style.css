@@ -160,11 +160,12 @@ footer .contact-box p {
 
 @media (max-width: 960px) {
   .hero h1 {
-    font-size: 44px;
-    line-height: 56px;
+    font-size: 35px;
+    line-height: 50px;
+    padding: 10px 0;
   }
   .content h1 {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
   }
   .project-description {
@@ -188,5 +189,13 @@ footer .contact-box p {
   }
   .content-container {
     padding: 0;
+  }
+  p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 20px;
+  }
+  footer .email-link {
+    font-size: 18px;
   }
 }
